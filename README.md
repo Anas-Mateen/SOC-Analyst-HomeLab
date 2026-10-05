@@ -59,7 +59,7 @@ Use an isolated Host-Only/Internal Network for the lab:
        ┌─────────────┼─────────────┐
        │             │             │
    (Kali VM)       (Windows 10)    (Ubuntu Server)
-  .56.10           .56.20          .56.30
+  .56.xx           .56.xx          .56.xx
   ATTACKER         VICTIM          WAZUH
 
 
