@@ -85,3 +85,12 @@ Technology Purpose</td></table>
     Windows 10-victim: 2 cores, 3GB RAM, 35GB disk </li>
     Splunk-Server: 2 cores, 4GB RAM, 40GB disk
 </ul>
+
+#Lab Components 
+<h2>SIEM-SPlunk</h2>
+<li>Splunk Enterprise receives Sysmon logs from the Windows 10 endpoint via the Universal Forwarder. Used for detection engineering, SPL queries, and adversary simulation validation.</li>
+<h2>Kali-Linux</h2>
+<li>Attack platform on an isolated network segment. Used for adversary simulation against the Windows 10 target.</li>
+<h2>Windows-10</h2>
+<li>Target endpoint with Sysmon (SwiftOnSecurity config), Splunk Universal Forwarder, and splunk server installed on ubuntu.Dual-NIC for isolated attack surface and log forwarding.</li>
+
