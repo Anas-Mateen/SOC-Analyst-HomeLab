@@ -94,3 +94,15 @@ Technology Purpose</td></table>
 <h2>Windows-10</h2>
 <li>Target endpoint with Sysmon (SwiftOnSecurity config), Splunk Universal Forwarder, and splunk server installed on ubuntu.Dual-NIC for isolated attack surface and log forwarding.</li>
 
+# 🏗️ Setup Highlightes:
+<ul>
+  <li>#setup highlightes 
+
+1.Network isolation — Created an additional Linux bridge with no gateway to fully isolate attack traffic from the home network and internet.
+2.Sysmon Configuration: sysmon can captures meaningful events without overwhelming the SIEM with noise.
+3.Splunk receiver: on port 9997 and check in ubuntu server via splunk bash -> sudo ss -lntp | grep 9997.
+4.Window setup (UFs) Universal Forwarder splunk: in window check TCP connection 
+powershall -> Test-NetConnection 192.168.x.x (Ubuntu IP) -port 9997. & RestartService SplunkForwarder & Get-Service SplunkForwareder.
+5.In Ubuntu Server & Splunk: after splunk installed now configure or start splunk in web-portal via 9997 in ubuntu terminal bash -> cd /opt/splunk/bin &
+Sudo ./splunk start --run-as-root.</li>
+</ul>
