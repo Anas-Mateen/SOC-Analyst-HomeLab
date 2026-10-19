@@ -25,7 +25,7 @@ The goal of this project is to build a small, realistic SOC environment where I 
                 │                           │
           Kali Linux                   Windows 10
          Attacker VM                  Victim VM
-                │                     Sysmon + Wazuh Agent
+                │                     Sysmon + UF splunk
                 │                           │
                 │     Simulated Attacks     │
                 └─────────────┬─────────────┘
@@ -35,8 +35,8 @@ The goal of this project is to build a small, realistic SOC environment where I 
                               ▼
                      ┌─────────────────┐
                      │  Ubuntu Server  │
-                     │     Wazuh       │
-                     │ Manager + Index │
+                     │     Splunk      │
+                     │ Search + Report │
                      │ + Dashboard     │
                      └────────┬────────┘
                               │
@@ -60,7 +60,7 @@ Use an isolated Host-Only/Internal Network for the lab:
        │             │             │
    (Kali VM)       (Windows 10)    (Ubuntu Server)
   .56.xx           .56.xx          .56.xx
-  ATTACKER         VICTIM          WAZUH
+  ATTACKER         VICTIM          SPLUNK
 
 
  
@@ -69,7 +69,7 @@ Use an isolated Host-Only/Internal Network for the lab:
 Technology Purpose</td></table>
 </table>
 <ul>
-  <li>Wazuh -> SIEM, log collection and alert monitoring.</li>
+  <li>Splunk -> SIEM, log collection and alert monitoring.</li>
   <li>Sysmon -> Windows endpoint telemetry.</li>
   <li>Windows -> Endpoint monitoring.</li>
   <li>Linux -> SOC infrastructure and security tools</li>
