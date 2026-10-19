@@ -75,3 +75,13 @@ Technology Purpose</td></table>
   <li>Linux -> SOC infrastructure and security tools</li>
   <li>MITRE Attack -> Adversary behavior mapping</li>
 </ul>
+
+# Lab Specifications 
+<ul>
+  <li><b>Host Hardware:</b> Dell Optiplex XE2,16GB RAM,256GB SSD </li>
+  <li><b>Network:</b> Dual bridges (LAN + isolated lab network)</li>
+  <li><b>VM resources:</b> 
+    Kali-attacker: 1 core, 3GB RAM, 40GB disk
+    Windows 10-victim: 2 cores, 3GB RAM, 35GB disk </li>
+    Splunk-Server: 2 cores, 4GB RAM, 40GB disk
+</ul>
