@@ -106,5 +106,3 @@ powershall -> Test-NetConnection 192.168.x.x (Ubuntu IP) -port 9997. & RestartSe
 Sudo ./splunk start --run-as-root.</li>
 </ul>
 
-[!] 
-(image/) <img width="1891" height="747" alt="Screenshot 2026-10-19 164323" src="https://github.com/user-attachments/assets/2670acf4-2942-429b-b0f8-956be1b13eef" />
