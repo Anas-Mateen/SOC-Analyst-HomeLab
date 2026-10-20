@@ -59,7 +59,7 @@ Use an isolated Host-Only/Internal Network for the lab:
        ┌─────────────┼─────────────┐
        │             │             │
    (Kali VM)       (Windows 10)    (Ubuntu Server)
-  .56.xx           .56.xx          .56.xx
+  192.168.100.40   192.168.100.42    192.168.100.39   
   ATTACKER         VICTIM          SPLUNK
 
 
@@ -105,3 +105,6 @@ powershall -> Test-NetConnection 192.168.x.x (Ubuntu IP) -port 9997. & RestartSe
 <li>5.In Ubuntu Server & Splunk: after splunk installed now configure or start splunk in web-portal via 9997 in ubuntu terminal bash -> cd /opt/splunk/bin &
 Sudo ./splunk start --run-as-root.</li>
 </ul>
+
+[!] 
+(image/) <img width="1891" height="747" alt="Screenshot 2026-10-19 164323" src="https://github.com/user-attachments/assets/2670acf4-2942-429b-b0f8-956be1b13eef" />
