@@ -106,3 +106,17 @@ powershall -> Test-NetConnection 192.168.x.x (Ubuntu IP) -port 9997. & RestartSe
 Sudo ./splunk start --run-as-root.</li>
 </ul>
 
+
+
+
+<!-- BADGES ROW 1 -->
+<img src="https://img.shields.io/badge/SIEM-WAZUH-7B61FF?style=for-the-badge&logo=wazuh&logoColor=white" alt="Wazuh" />
+<img src="https://img.shields.io/badge/ATTACKER-KALI_LINUX-00B8D9?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux" />
+<img src="https://img.shields.io/badge/ENDPOINT-WINDOWS_10-2563EB?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 10" />
+
+<br>
+
+<!-- BADGES ROW 2 -->
+<img src="https://img.shields.io/badge/STATUS-COMPLETED-16A34A?style=for-the-badge" alt="Status" />
+<img src="https://img.shields.io/badge/PLATFORM-VIRTUALBOX-F97316?style=for-the-badge&logo=virtualbox&logoColor=white" alt="Platform" />
+
